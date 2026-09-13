@@ -1,0 +1,58 @@
+[
+  {
+    "test_id": "AAMD-T01",
+    "description": "Operating temperature",
+    "requirement": "-30 \u00b0C to +70 \u00b0C",
+    "tolerance": "\u00b12 \u00b0C",
+    "test_method": "Environmental chamber"
+  },
+  {
+    "test_id": "AAMD-T03",
+    "description": "Thermal shock",
+    "requirement": "-30 \u00b0C \u2194 +70 \u00b0C",
+    "tolerance": "3\u20136 \u00b0C/min transition rate",
+    "test_method": "Thermal shock"
+  },
+  {
+    "test_id": "AAMD-T06",
+    "description": "Random vibration",
+    "requirement": "10\u2013500 Hz, 7.0 grms",
+    "tolerance": "\u00b110 %",
+    "test_method": "Random vibration"
+  },
+  {
+    "test_id": "AAMD-T10",
+    "description": "Output voltage",
+    "requirement": "5.0 VDC",
+    "tolerance": "\u00b10.05 V",
+    "test_method": "Electrical measurement"
+  },
+  {
+    "test_id": "AAMD-T13",
+    "description": "Functional endurance",
+    "requirement": "12 h continuous operation",
+    "tolerance": "\u00b115 min",
+    "test_method": "Functional endurance"
+  },
+  {
+    "test_id": "AAMD-T16",
+    "description": "Connector retention",
+    "requirement": "Connector shall withstand a 50 N axial retention force",
+    "tolerance": "\u00b15 N",
+    "test_method": "Mechanical pull test"
+  },
+  {
+    "test_id": "AAMD-T17",
+    "description": "Mounting interface pull strength",
+    "requirement": "Equipment mounting interface shall withstand a 100 N axial load without loss of attachment",
+    "tolerance": "\u00b110 N",
+    "test_method": "Static mechanical load"
+  },
+  {
+    "test_id": "AAMD-T18",
+    "description": "Connector electrical continuity after mechanical exposure",
+    "requirement": "Electrical continuity shall remain intact following mechanical interface loading",
+    "tolerance": "No open circuit",
+    "test_method": "Continuity measurement"
+  }
+]

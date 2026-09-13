@@ -1,0 +1,1107 @@
+[
+  {
+    "section": "4. TEST REQUIREMENTS AND QUALIFICATION PROCEDURE",
+    "paragraphs": [
+      "This chapter defines the qualification and verification requirements applicable to the equipment under test. Test conditions, configurations, acceptance criteria, instrumentation, and required observations are defined below.",
+      "Unless otherwise specified, tests shall be performed using the approved qualification configuration. Any deviation from the specified sequence or test condition shall be documented and approved in accordance with the applicable configuration-management process.",
+      "The requirements in this chapter are organized by test environment and verification objective. Values appearing in tables constitute controlled test parameters unless explicitly identified as informational."
+    ],
+    "tables": [
+      [
+        [
+          "Parameter",
+          "Requirement",
+          "Acceptance"
+        ],
+        [
+          "Configuration",
+          "Qualification configuration",
+          "Approved configuration"
+        ],
+        [
+          "Instrumentation",
+          "Calibrated equipment",
+          "Calibration current"
+        ],
+        [
+          "Data recording",
+          "Required",
+          "Complete test record"
+        ],
+        [
+          "Pre-test inspection",
+          "Required",
+          "No unacceptable anomaly"
+        ]
+      ]
+    ]
+  },
+  {
+    "section": "4.1 General Test Conditions",
+    "paragraphs": [
+      "The equipment shall be tested in the configuration identified by the applicable qualification configuration record.",
+      "Before each test, the test article shall be inspected for evidence of damage, incorrect assembly, loose hardware, or configuration anomalies.",
+      "Test instrumentation shall have sufficient accuracy and resolution to demonstrate compliance with the applicable requirement.",
+      "Unless otherwise stated, measured values shall be recorded during the applicable test exposure."
+    ],
+    "tables": [
+      [
+        [
+          "Item",
+          "Configuration Requirement",
+          "Verification"
+        ],
+        [
+          "Mounting",
+          "Representative installation",
+          "Visual"
+        ],
+        [
+          "Power",
+          "Nominal operating input",
+          "Measurement"
+        ],
+        [
+          "Loads",
+          "Representative load",
+          "Functional check"
+        ],
+        [
+          "Connectors",
+          "Installed and secured",
+          "Inspection"
+        ]
+      ]
+    ]
+  },
+  {
+    "section": "4.2 Test Configuration",
+    "paragraphs": [
+      "The test article shall be installed using the approved mechanical and electrical interfaces. Mounting arrangements shall reproduce the intended installation configuration to the extent practical.",
+      "All external connections required for operation shall be identified before application of the test environment."
+    ],
+    "tables": [
+      [
+        [
+          "Environment",
+          "Applicable Condition",
+          "Primary Objective"
+        ],
+        [
+          "Temperature",
+          "Operating and storage",
+          "Environmental survivability"
+        ],
+        [
+          "Humidity",
+          "High relative humidity",
+          "Moisture resistance"
+        ],
+        [
+          "Altitude",
+          "Reduced pressure",
+          "Altitude performance"
+        ],
+        [
+          "Vibration",
+          "Random vibration",
+          "Mechanical robustness"
+        ],
+        [
+          "Shock",
+          "Mechanical shock",
+          "Structural integrity"
+        ]
+      ]
+    ]
+  },
+  {
+    "section": "4.3 Environmental Qualification Overview",
+    "paragraphs": [
+      "Environmental qualification demonstrates that the equipment continues to meet specified functional and physical requirements under representative environmental conditions.",
+      "The environmental sequence may include temperature, humidity, altitude, vibration, and mechanical shock exposures."
+    ],
+    "tables": [
+      [
+        [
+          "Parameter",
+          "Current Requirement",
+          "Tolerance",
+          "Method"
+        ],
+        [
+          "Low operating temperature",
+          "-30 \u00b0C",
+          "\u00b12 \u00b0C",
+          "Environmental chamber"
+        ],
+        [
+          "High operating temperature",
+          "+70 \u00b0C",
+          "\u00b12 \u00b0C",
+          "Environmental chamber"
+        ],
+        [
+          "Dwell",
+          "Minimum 30 min",
+          "\u00b15 min",
+          "Timer"
+        ],
+        [
+          "Functional state",
+          "Operational",
+          "No unacceptable interruption",
+          "Functional monitoring"
+        ]
+      ]
+    ]
+  },
+  {
+    "section": "4.4 Operating Temperature Verification",
+    "paragraphs": [
+      "The equipment shall be operated while exposed to the specified operating temperature range. Functional performance shall be monitored during temperature exposure.",
+      "Temperature measurements shall be taken at representative locations identified in the instrumentation configuration.",
+      "The equipment shall remain functional throughout the specified operating temperature exposure."
+    ],
+    "tables": [
+      [
+        [
+          "Parameter",
+          "Requirement",
+          "Tolerance"
+        ],
+        [
+          "Low storage temperature",
+          "-40 \u00b0C",
+          "\u00b13 \u00b0C"
+        ],
+        [
+          "High storage temperature",
+          "+75 \u00b0C",
+          "\u00b13 \u00b0C"
+        ],
+        [
+          "Recovery",
+          "Ambient stabilization",
+          "As required"
+        ],
+        [
+          "Post-test inspection",
+          "Required",
+          "No unacceptable damage"
+        ]
+      ]
+    ]
+  },
+  {
+    "section": "4.5 Storage Temperature Verification",
+    "paragraphs": [
+      "The test article shall be exposed to storage temperature extremes without requiring continuous operation during the exposure.",
+      "Following storage exposure, the equipment shall be returned to the operating condition and inspected for degradation."
+    ],
+    "tables": [
+      [
+        [
+          "Parameter",
+          "Requirement",
+          "Tolerance"
+        ],
+        [
+          "Relative humidity",
+          "0\u201395 % RH",
+          "+3 / -5 % RH"
+        ],
+        [
+          "Condensation",
+          "Non-condensing",
+          "Unless procedure specifies otherwise"
+        ],
+        [
+          "Exposure",
+          "Representative humidity cycle",
+          "Per procedure"
+        ]
+      ]
+    ]
+  },
+  {
+    "section": "4.6 Humidity Verification",
+    "paragraphs": [
+      "The equipment shall be subjected to controlled humidity conditions representative of the intended service environment.",
+      "Condensation shall be controlled in accordance with the applicable environmental test procedure."
+    ],
+    "tables": [
+      [
+        [
+          "Parameter",
+          "Requirement",
+          "Tolerance"
+        ],
+        [
+          "Altitude",
+          "15,000 ft",
+          "\u00b1500 ft"
+        ],
+        [
+          "Functional operation",
+          "Required",
+          "No unacceptable degradation"
+        ],
+        [
+          "Pressure stabilization",
+          "Required",
+          "Before measurement"
+        ]
+      ]
+    ]
+  },
+  {
+    "section": "4.7 Altitude / Reduced Pressure Verification",
+    "paragraphs": [
+      "Altitude testing shall demonstrate equipment operation under the specified reduced atmospheric pressure condition.",
+      "Electrical and functional performance shall be monitored during the applicable altitude exposure."
+    ],
+    "tables": [
+      [
+        [
+          "Parameter",
+          "Requirement",
+          "Tolerance"
+        ],
+        [
+          "Cold condition",
+          "-30 \u00b0C",
+          "\u00b12 \u00b0C"
+        ],
+        [
+          "Hot condition",
+          "+70 \u00b0C",
+          "\u00b12 \u00b0C"
+        ],
+        [
+          "Number of cycles",
+          "10",
+          "\u00b11 cycle"
+        ],
+        [
+          "Dwell",
+          "30 min",
+          "\u00b15 min"
+        ]
+      ]
+    ]
+  },
+  {
+    "section": "4.8 Thermal Cycling",
+    "paragraphs": [
+      "Thermal cycling shall expose the test article to repeated transitions between defined temperature extremes.",
+      "The test sequence shall include temperature stabilization and appropriate dwell periods before transition to the next condition."
+    ],
+    "tables": [
+      [
+        [
+          "Parameter",
+          "Requirement",
+          "Tolerance",
+          "Measurement"
+        ],
+        [
+          "Cold condition",
+          "-30 \u00b0C",
+          "\u00b12 \u00b0C",
+          "Chamber sensor"
+        ],
+        [
+          "Hot condition",
+          "+70 \u00b0C",
+          "\u00b12 \u00b0C",
+          "Chamber sensor"
+        ],
+        [
+          "Transition rate",
+          "3\u20136 \u00b0C/min",
+          "Controlled range",
+          "Chamber profile"
+        ],
+        [
+          "Dwell",
+          "15 min",
+          "\u00b13 min",
+          "Timer"
+        ],
+        [
+          "Cycles",
+          "5",
+          "\u00b11 cycle",
+          "Cycle counter"
+        ]
+      ]
+    ]
+  },
+  {
+    "section": "4.9 Thermal Shock / Rapid Temperature Transition",
+    "paragraphs": [
+      "The thermal shock test evaluates equipment response to rapid transitions between temperature extremes.",
+      "The transition rate is controlled between the defined environmental conditions. Equipment functionality shall be monitored before, during, and after the applicable exposure.",
+      "The temperature transition requirement is distinct from the steady-state operating temperature requirement."
+    ],
+    "tables": [
+      [
+        [
+          "Parameter",
+          "Requirement",
+          "Tolerance",
+          "Notes"
+        ],
+        [
+          "Frequency range",
+          "10\u2013500 Hz",
+          "As specified",
+          "Random vibration"
+        ],
+        [
+          "Overall level",
+          "7.0 grms",
+          "\u00b110 %",
+          "Control acceleration"
+        ],
+        [
+          "Axis",
+          "Three mutually orthogonal axes",
+          "Per setup",
+          "Sequential"
+        ],
+        [
+          "Duration",
+          "30 min/axis",
+          "\u00b12 min",
+          "Continuous exposure"
+        ],
+        [
+          "Mounting",
+          "Representative",
+          "Approved fixture",
+          "Qualification setup"
+        ]
+      ]
+    ]
+  },
+  {
+    "section": "4.10 Random Vibration Verification",
+    "paragraphs": [
+      "Random vibration testing shall demonstrate mechanical robustness under the specified dynamic environment.",
+      "The test article shall be mounted using the representative mounting configuration. Control accelerometers shall be positioned as defined by the test setup.",
+      "Vibration response shall be monitored for unacceptable functional degradation or physical damage."
+    ],
+    "tables": [
+      [
+        [
+          "Parameter",
+          "Requirement",
+          "Tolerance"
+        ],
+        [
+          "Peak acceleration",
+          "40 g",
+          "\u00b110 %"
+        ],
+        [
+          "Pulse duration",
+          "11 ms",
+          "\u00b11 ms"
+        ],
+        [
+          "Pulse shape",
+          "Half-sine",
+          "Per procedure"
+        ],
+        [
+          "Direction",
+          "Applicable axes",
+          "Per configuration"
+        ],
+        [
+          "Post-test inspection",
+          "Required",
+          "No unacceptable damage"
+        ]
+      ]
+    ]
+  },
+  {
+    "section": "4.11 Mechanical Shock Verification",
+    "paragraphs": [
+      "Mechanical shock testing shall demonstrate structural integrity following application of the specified shock pulse.",
+      "The test article shall be inspected following each applicable shock exposure."
+    ],
+    "tables": [
+      [
+        [
+          "Parameter",
+          "Requirement",
+          "Acceptance"
+        ],
+        [
+          "Mounting fasteners",
+          "Per assembly drawing",
+          "Correct installation"
+        ],
+        [
+          "Interface",
+          "Representative",
+          "Approved configuration"
+        ],
+        [
+          "Structural condition",
+          "No unacceptable deformation",
+          "Visual inspection"
+        ],
+        [
+          "Hardware retention",
+          "No unacceptable loosening",
+          "Post-test inspection"
+        ]
+      ]
+    ]
+  },
+  {
+    "section": "4.12 Mechanical Mounting and Structural Interface",
+    "paragraphs": [
+      "The mechanical mounting arrangement shall reproduce the interface between the equipment and its representative installation.",
+      "Mounting fasteners shall be installed in accordance with the approved assembly configuration.",
+      "No permanent deformation or loosening that compromises the equipment shall occur during qualification testing."
+    ],
+    "tables": [
+      [
+        [
+          "Parameter",
+          "Requirement",
+          "Tolerance",
+          "Verification"
+        ],
+        [
+          "Connector engagement",
+          "Fully seated",
+          "Visual criteria",
+          "Inspection"
+        ],
+        [
+          "Interface condition",
+          "No damage",
+          "Per workmanship criteria",
+          "Inspection"
+        ],
+        [
+          "Retention force",
+          "Not less than 45 N",
+          "\u00b15 N",
+          "Mechanical pull test"
+        ],
+        [
+          "Mating condition",
+          "Correct orientation",
+          "Per interface drawing",
+          "Inspection"
+        ]
+      ]
+    ]
+  },
+  {
+    "section": "4.13 Connector and Interface Integrity",
+    "paragraphs": [
+      "Physical interfaces shall remain secure throughout applicable qualification testing.",
+      "Connector assemblies shall maintain their intended engagement and shall not exhibit unacceptable displacement, damage, or loss of retention.",
+      "Where interface force requirements are applicable, the force shall be measured using calibrated equipment appropriate to the interface.",
+      "Connector retention is considered a mechanical interface property even when the connector also carries electrical signals."
+    ],
+    "tables": [
+      [
+        [
+          "Parameter",
+          "Requirement",
+          "Tolerance"
+        ],
+        [
+          "Nominal input voltage",
+          "28 VDC",
+          "\u00b11.0 V"
+        ],
+        [
+          "Input polarity",
+          "Correct polarity",
+          "Per interface"
+        ],
+        [
+          "Supply stability",
+          "Controlled",
+          "Per laboratory equipment"
+        ]
+      ]
+    ]
+  },
+  {
+    "section": "4.14 Electrical Input Power",
+    "paragraphs": [
+      "The equipment shall operate from the specified nominal electrical input supply.",
+      "Input voltage shall be measured at the designated equipment interface under the applicable load condition."
+    ],
+    "tables": [
+      [
+        [
+          "Parameter",
+          "Requirement",
+          "Tolerance"
+        ],
+        [
+          "Input current",
+          "\u22642.5 A",
+          "\u00b10.1 A"
+        ],
+        [
+          "Input voltage",
+          "28 VDC nominal",
+          "\u00b11.0 V"
+        ],
+        [
+          "Load",
+          "Nominal operating load",
+          "Representative"
+        ]
+      ]
+    ]
+  },
+  {
+    "section": "4.15 Electrical Input Current",
+    "paragraphs": [
+      "Input current shall be measured at nominal input voltage and representative operating load.",
+      "Measured current shall remain within the specified limit."
+    ],
+    "tables": [
+      [
+        [
+          "Parameter",
+          "Requirement",
+          "Tolerance",
+          "Condition"
+        ],
+        [
+          "Output voltage",
+          "5.0 VDC",
+          "\u00b10.05 V",
+          "Nominal load"
+        ],
+        [
+          "Measurement point",
+          "Designated output",
+          "Per interface",
+          "Accessible point"
+        ],
+        [
+          "Load condition",
+          "Nominal",
+          "Per configuration",
+          "Functional"
+        ]
+      ]
+    ]
+  },
+  {
+    "section": "4.16 Electrical Output Performance",
+    "paragraphs": [
+      "The equipment output shall remain within the specified voltage range under the applicable operating condition.",
+      "Output measurements shall be made using calibrated instrumentation with appropriate resolution."
+    ],
+    "tables": [
+      [
+        [
+          "Parameter",
+          "Requirement",
+          "Tolerance"
+        ],
+        [
+          "Test voltage",
+          "500 VAC",
+          "\u00b15 %"
+        ],
+        [
+          "Duration",
+          "60 s",
+          "\u00b15 s"
+        ],
+        [
+          "Leakage",
+          "No unacceptable breakdown",
+          "Per procedure"
+        ]
+      ]
+    ]
+  },
+  {
+    "section": "4.17 Dielectric Withstand",
+    "paragraphs": [
+      "Dielectric withstand testing shall demonstrate adequate isolation between the applicable electrical circuits and accessible conductive parts.",
+      "The specified test voltage shall be applied for the required duration."
+    ],
+    "tables": [
+      [
+        [
+          "Parameter",
+          "Requirement",
+          "Tolerance"
+        ],
+        [
+          "Test voltage",
+          "500 VDC",
+          "\u00b15 %"
+        ],
+        [
+          "Minimum resistance",
+          "50 M\u03a9",
+          "\u00b15 M\u03a9"
+        ],
+        [
+          "Stabilization",
+          "As specified",
+          "Per procedure"
+        ]
+      ]
+    ]
+  },
+  {
+    "section": "4.18 Insulation Resistance",
+    "paragraphs": [
+      "Insulation resistance shall be measured using the specified test voltage after appropriate stabilization.",
+      "The measured resistance shall meet or exceed the specified minimum."
+    ],
+    "tables": [
+      [
+        [
+          "Parameter",
+          "Requirement",
+          "Acceptance"
+        ],
+        [
+          "Functional state",
+          "Operational",
+          "Pass"
+        ],
+        [
+          "Status indication",
+          "Correct",
+          "Pass"
+        ],
+        [
+          "Fault indication",
+          "None",
+          "No unacceptable fault"
+        ]
+      ]
+    ]
+  },
+  {
+    "section": "4.19 Functional Operation",
+    "paragraphs": [
+      "The equipment shall demonstrate required functional operation following completion of environmental exposures.",
+      "Functional status shall be recorded at the designated inspection points."
+    ],
+    "tables": [
+      [
+        [
+          "Parameter",
+          "Requirement",
+          "Tolerance"
+        ],
+        [
+          "Continuous operation",
+          "12 h",
+          "\u00b115 min"
+        ],
+        [
+          "Operating mode",
+          "Normal operating mode",
+          "Per configuration"
+        ],
+        [
+          "Monitoring",
+          "Continuous",
+          "Required"
+        ],
+        [
+          "Post-test status",
+          "Operational",
+          "Pass"
+        ]
+      ]
+    ]
+  },
+  {
+    "section": "4.20 Functional Endurance",
+    "paragraphs": [
+      "The equipment shall operate continuously for the specified endurance period under representative operating conditions.",
+      "Functional status shall be monitored throughout the endurance test.",
+      "Any interruption shall be recorded and evaluated against the applicable acceptance criteria."
+    ],
+    "tables": [
+      [
+        [
+          "Parameter",
+          "Requirement",
+          "Tolerance"
+        ],
+        [
+          "Number of interruptions",
+          "10",
+          "\u00b11 interruption"
+        ],
+        [
+          "Interruption duration",
+          "1 s",
+          "\u00b10.1 s"
+        ],
+        [
+          "Recovery",
+          "Normal operation",
+          "Required"
+        ]
+      ]
+    ]
+  },
+  {
+    "section": "4.21 Power Interruption and Recovery",
+    "paragraphs": [
+      "The equipment shall be subjected to controlled interruptions of the electrical supply.",
+      "Following each interruption, the equipment shall recover to the specified functional state without unacceptable degradation."
+    ],
+    "tables": [
+      [
+        [
+          "Inspection Item",
+          "Requirement",
+          "Acceptance"
+        ],
+        [
+          "Cracks",
+          "None",
+          "Pass"
+        ],
+        [
+          "Deformation",
+          "None unacceptable",
+          "Pass"
+        ],
+        [
+          "Loose hardware",
+          "None",
+          "Pass"
+        ],
+        [
+          "Markings",
+          "Legible",
+          "Pass"
+        ],
+        [
+          "Connector condition",
+          "No visible damage",
+          "Pass"
+        ]
+      ]
+    ]
+  },
+  {
+    "section": "4.22 Visual Inspection and Workmanship",
+    "paragraphs": [
+      "Visual inspection shall be performed before and after applicable qualification testing.",
+      "The inspection shall identify visible cracks, deformation, loose hardware, damaged interfaces, missing components, or illegible markings."
+    ],
+    "tables": [
+      [
+        [
+          "Measurement",
+          "Minimum Capability",
+          "Verification"
+        ],
+        [
+          "Temperature",
+          "Suitable chamber accuracy",
+          "Calibration"
+        ],
+        [
+          "Acceleration",
+          "Suitable dynamic range",
+          "Calibration"
+        ],
+        [
+          "Voltage",
+          "Resolution appropriate to limit",
+          "Calibration"
+        ],
+        [
+          "Force",
+          "Range appropriate to interface",
+          "Calibration"
+        ],
+        [
+          "Time",
+          "Resolution appropriate to requirement",
+          "Calibration"
+        ]
+      ]
+    ]
+  },
+  {
+    "section": "4.23 Instrumentation and Measurement Accuracy",
+    "paragraphs": [
+      "Instrumentation shall be selected based on the parameter being measured and shall have adequate range, accuracy, and resolution.",
+      "Calibration status shall be verified before test execution."
+    ],
+    "tables": [
+      [
+        [
+          "Data Item",
+          "Required",
+          "Notes"
+        ],
+        [
+          "Test article ID",
+          "Yes",
+          "Record before test"
+        ],
+        [
+          "Configuration",
+          "Yes",
+          "Approved configuration"
+        ],
+        [
+          "Instrumentation ID",
+          "Yes",
+          "Record calibration status"
+        ],
+        [
+          "Measured values",
+          "Yes",
+          "Applicable parameters"
+        ],
+        [
+          "Observations",
+          "Yes",
+          "Record anomalies"
+        ]
+      ]
+    ]
+  },
+  {
+    "section": "4.24 Test Data and Recording Requirements",
+    "paragraphs": [
+      "Test data shall identify the test article, configuration, applicable test condition, instrumentation, and recorded measurement.",
+      "Raw data shall be retained in accordance with the applicable document-control requirements."
+    ],
+    "tables": [
+      [
+        [
+          "Condition",
+          "Disposition"
+        ],
+        [
+          "Requirement satisfied",
+          "Accept"
+        ],
+        [
+          "Requirement not satisfied",
+          "Engineering evaluation"
+        ],
+        [
+          "Test anomaly",
+          "Document and evaluate"
+        ],
+        [
+          "Unapproved deviation",
+          "Test not accepted"
+        ]
+      ]
+    ]
+  },
+  {
+    "section": "4.25 Acceptance and Failure Handling",
+    "paragraphs": [
+      "A test shall be considered acceptable when all applicable specified requirements and acceptance criteria have been demonstrated.",
+      "Failures, anomalies, or deviations shall be documented and evaluated before the test is considered complete.",
+      "Retest shall not be performed solely to obtain a passing result without appropriate engineering evaluation."
+    ],
+    "tables": [
+      [
+        [
+          "Inspection Area",
+          "Condition"
+        ],
+        [
+          "Housing",
+          "No unacceptable damage"
+        ],
+        [
+          "Connectors",
+          "Secure and undamaged"
+        ],
+        [
+          "Mounting",
+          "No unacceptable loosening"
+        ],
+        [
+          "Markings",
+          "Legible"
+        ],
+        [
+          "Hardware",
+          "Complete and secure"
+        ]
+      ]
+    ]
+  },
+  {
+    "section": "4.26 Post-Test Inspection",
+    "paragraphs": [
+      "Following completion of qualification testing, the equipment shall be inspected for evidence of physical degradation.",
+      "Particular attention shall be given to mounting interfaces, connectors, housings, fasteners, and visible workmanship."
+    ],
+    "tables": [
+      [
+        [
+          "Item",
+          "Requirement"
+        ],
+        [
+          "Hardware revision",
+          "Controlled"
+        ],
+        [
+          "Software revision",
+          "Controlled where applicable"
+        ],
+        [
+          "Test procedure revision",
+          "Current approved revision"
+        ],
+        [
+          "Configuration record",
+          "Required"
+        ]
+      ]
+    ]
+  },
+  {
+    "section": "4.27 Configuration and Revision Control",
+    "paragraphs": [
+      "The configuration of the test article and supporting test equipment shall be identified in the test record.",
+      "Changes to controlled configuration items shall be evaluated before use in qualification testing."
+    ],
+    "tables": [
+      [
+        [
+          "Sequence Element",
+          "Typical Order"
+        ],
+        [
+          "Pre-test inspection",
+          "1"
+        ],
+        [
+          "Environmental testing",
+          "2"
+        ],
+        [
+          "Mechanical testing",
+          "3"
+        ],
+        [
+          "Electrical testing",
+          "4"
+        ],
+        [
+          "Functional testing",
+          "5"
+        ],
+        [
+          "Final inspection",
+          "6"
+        ]
+      ]
+    ]
+  },
+  {
+    "section": "4.28 Qualification Test Sequence",
+    "paragraphs": [
+      "The qualification sequence shall be established before test execution. Individual test order may be adjusted only when the technical rationale and applicable approvals are documented.",
+      "Environmental exposures shall be performed in accordance with the approved qualification sequence."
+    ],
+    "tables": [
+      [
+        [
+          "Deviation Information",
+          "Required"
+        ],
+        [
+          "Requirement affected",
+          "Yes"
+        ],
+        [
+          "Actual condition",
+          "Yes"
+        ],
+        [
+          "Technical impact",
+          "Yes"
+        ],
+        [
+          "Disposition",
+          "Yes"
+        ],
+        [
+          "Approval",
+          "As applicable"
+        ]
+      ]
+    ]
+  },
+  {
+    "section": "4.29 Test Deviations",
+    "paragraphs": [
+      "Any departure from the approved test condition shall be recorded as a test deviation.",
+      "The deviation record shall identify the affected requirement, actual condition, technical impact, and disposition."
+    ],
+    "tables": [
+      [
+        [
+          "Review Item",
+          "Status"
+        ],
+        [
+          "Test completion",
+          "Required"
+        ],
+        [
+          "Data completeness",
+          "Required"
+        ],
+        [
+          "Anomalies dispositioned",
+          "Required"
+        ],
+        [
+          "Configuration verified",
+          "Required"
+        ],
+        [
+          "Final review",
+          "Required"
+        ]
+      ]
+    ]
+  },
+  {
+    "section": "4.30 Final Qualification Review",
+    "paragraphs": [
+      "At completion of testing, all applicable results shall be reviewed against the requirements defined in this chapter.",
+      "Open anomalies, deviations, and unresolved discrepancies shall be identified before final qualification disposition."
+    ],
+    "tables": []
+  }
+]

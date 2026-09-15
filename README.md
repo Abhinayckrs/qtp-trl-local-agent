@@ -81,7 +81,7 @@ Initial experiments used:
 
 **Qwen/Qwen3-4B-Instruct-2507**
 
-The model was successfully run locally in a Colab GPU environment using 4-bit quantization.
+The model was successfully run locally in a Mac Mini M4 16 GB using 4-bit quantization.
 
 The first CPU attempt exhausted available memory.
 
